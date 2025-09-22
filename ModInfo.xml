@@ -1,0 +1,8 @@
+<mod displayName="Wildlife Sanctuary Tweaks" unique="Lunakibby_ZooTweaks" description="Requires UPE (Universal Property Enhancer). This allows it to not conflict with other mods. &#xA;&#xA; Wildlife Enclosure Tweaks increases the total capacity of Zoo / Sanctuary Planets to a much higher value, allowing you to store more creatures there" installerSystemVersion="1.0.1.2" hasCustomInstaller="true" requiresGalaxyReset="false" dllsBuild="2.5.400">
+    <componentGroup unique="Variations" displayName="Variations">
+    <component unique="99" displayName="Sanctuary 99" description="Default version of the mod. Increases the Sanctuary Limit from 30 to 99" game="GalacticAdventures" defaultChecked="true">!WildlifeSanctuaryTweaks-v1.0-99.package</component>
+    <component unique="999" displayName="Sanctuary 999" description="Extended version of the mod. Increases the Sanctuary Limit from 30 to 999, may cause lag on worlds with tons of creatures." game="GalacticAdventures" defaultChecked="false">!WildlifeSanctuaryTweaks-v1.0-999.package</component>
+    </componentGroup>
+    <prerequisite game="GalacticAdventures"></prerequisite>
+    <remove game="GalacticAdventures">!WildlifeSanctuaryTweaks*</remove>
+</mod>
