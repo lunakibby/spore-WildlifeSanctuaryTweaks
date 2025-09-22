@@ -1,0 +1,9 @@
+string8s postinitList
+    "gtZoo gtZooInits"
+end
+
+# Original Proplist
+key gtZoo gametuning~!TerraformTuning.prop
+
+# New Proplist with replacing values
+key gtZooInits postinits_gametuning!TerraformTuning.prop
